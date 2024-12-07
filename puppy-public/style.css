@@ -39,6 +39,10 @@ body{
     line-height:normal;
     font-weight:150;
 }
+body, html {
+    scrollbar-width: auto;
+    scrollbar-color: var(--nav) var(--content2);
+}
 /*Main*/
 #container{
     max-width:80%;
