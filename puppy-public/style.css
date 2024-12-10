@@ -155,7 +155,7 @@ textarea{
 /*Fun*/
 ::selection {
     background: var(--bg);
-    color:var(--content2)
+    color:white;
 }
 #pagedoll{
     position: fixed;
