@@ -34,7 +34,8 @@ body {
   line-height: normal;
   font-weight: 150;
 }
-body html {
+
+body, html {
   scrollbar-width: auto;
   scrollbar-color: #dbbf8b #fff1e3;
 }

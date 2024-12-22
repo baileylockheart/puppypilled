@@ -36,12 +36,11 @@ body{
     color: $black;
     font-size:1rem;
     line-height:normal;
-    font-weight:150;
-    
-    html {
-        scrollbar-width: auto;
-        scrollbar-color: $nav $content2;
-    }
+    font-weight:150;    
+}
+body, html {
+    scrollbar-width: auto;
+    scrollbar-color: $nav $content2;
 }
 /*Main*/
 #container{
