@@ -97,7 +97,14 @@
         </footer>
     </div>
     <img id="pagedoll" src="/images/pagedoll.png">
+    <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
     <script>
+        kofiWidgetOverlay.draw('baileylockheart', {
+            'type': 'floating-chat',
+            'floating-chat.donateButton.text': ':3',
+            'floating-chat.donateButton.background-color': '#ffeda8',
+            'floating-chat.donateButton.text-color': '#000'
+        });
         var loader = document.getElementById("preloader");
         window.addEventListener("load", function () {
           loader.style.display = "none";

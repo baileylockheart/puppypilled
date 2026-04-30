@@ -1,10 +1,10 @@
 @font-face {
   font-family: Cherrybomb;
-  src: url(/fonts/Cherrybomb.ttf);
+  src: url("/fonts/Cherrybomb.ttf");
 }
 @font-face {
   font-family: Chewy;
-  src: url(/fonts/Chewy-Regular.ttf);
+  src: url("/fonts/Chewy-Regular.ttf");
 }
 html {
   height: 100%;
@@ -23,7 +23,7 @@ body:before {
   top: 0;
   transform: scale(1);
   z-index: -700;
-  background-image: url(/images/pawbg.png);
+  background-image: url("/images/pawbg.png");
   background-repeat: repeat;
 }
 
